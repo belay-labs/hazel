@@ -4,9 +4,8 @@
   "main": "lib/index.js",
   "description": "Lightweight update server for Electron apps",
   "scripts": {
-    "dev": "npx vercel dev",
+    "development": "npx vercel dev",
     "test": "xo && jest",
-    "precommit": "lint-staged"
   },
   "license": "MIT",
   "repository": "vercel/hazel",
