@@ -1,4 +1,11 @@
 {
-  "singleQuote": true,
-  "semi": false
+  "endOfLine": "lf",
+  "semi": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "importOrder": ["^@dispatch/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 100
 }
